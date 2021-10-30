@@ -1,0 +1,40 @@
+baseURL = 'https://LeonLin0516.github.io'
+title = 'Leon Lin'
+theme = "hugo-theme-cleanwhite-rsy"
+languageCode = 'en-us'
+paginate = 5000 #frontpage pagination
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  header_image = "images/main_go_wideandtall_darklayer.jpeg"
+  title = "Software Engineering"
+  slogan = "Why be afraid of the infinity of truth? Joy resides in every step of growth."
+  SEOTitle = "Leon Lin Blog"
+  keyword = "UCSD, Software Engineering, Machine Learning, Computer Science, Mathematics, Java, Python, Spring, MySQL, JavaScript"
+
+# Sidebar settings
+  sidebar_about_description = "Third Year Computer Science student at UC San Diego. Interested in exploring and researching in the fields of Computer Science and Mathematics."
+  sidebar_avatar = ""
+  about_me = true
+
+featured_tags = true 
+featured_condition_size = 2 # How many posts have to have a given tag to be featured (greater-than)
+
+image_404 = "images/404-bg.jpg"
+title_404 = "We couldn't find what you were looking for..."
+
+omit_categories = false
+
+[[params.addtional_menus]]
+title =  "ABOUT"
+href =  "/top/about/"
+
+[params.social]
+  rss            = true
+  email          = "l9lin@ucsd.edu"
+  linkedin       = "https://linkedin.com/in/leon-lin0516"
+  github         = "https://github.com/LeonLin0516"
