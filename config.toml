@@ -10,15 +10,15 @@ paginate = 5000 #frontpage pagination
       unsafe = true
 
 [params]
-  header_image = "images/main_go_wideandtall_darklayer.jpeg"
+  header_image = "img/jsob.jpg"
   title = "Software Engineering"
   slogan = "Why be afraid of the infinity of truth? Joy resides in every step of growth."
-  SEOTitle = "Leon Lin Blog"
+  SEOTitle = "Leon's Blog"
   keyword = "UCSD, Software Engineering, Machine Learning, Computer Science, Mathematics, Java, Python, Spring, MySQL, JavaScript"
 
 # Sidebar settings
   sidebar_about_description = "Third Year Computer Science student at UC San Diego. Interested in exploring and researching in the fields of Computer Science and Mathematics."
-  sidebar_avatar = ""
+  sidebar_avatar = "img/photo.jpg"
   about_me = true
 
 featured_tags = true 
